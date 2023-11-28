@@ -10,4 +10,7 @@ void main() {
   test('100 is not a leap year', () {
     expect(calculator.calculateLeapYear(100), isFalse);
   });
+  test('2000 is a leap year', () {
+    expect(calculator.calculateLeapYear(2000), isTrue);
+  });
 }
