@@ -2,9 +2,9 @@ import 'package:bates_leap_year/leap_year_calculator.dart';
 import 'package:test/test.dart';
 
 void main() {
-  leapYearCalculator calculator = leapYearCalculator();
+  LeapYearCalculator calculator = LeapYearCalculator();
 
   test('1975 is not a leap year', () {
-    expect(calculator.isLeapYear(1975), isFalse);
+    expect(calculator.calculateLeapYear(1975), isFalse);
   });
 }

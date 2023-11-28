@@ -1,6 +1,6 @@
-class leapYearCalculator {
-  bool isLeapYear(int i) {
-    if (i % 4 == 0) {
+class LeapYearCalculator {
+  bool calculateLeapYear(int year) {
+    if (year % 4 == 0) {
       return true;
     } else {
       return false;
