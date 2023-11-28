@@ -13,4 +13,7 @@ void main() {
   test('2000 is a leap year', () {
     expect(calculator.calculateLeapYear(2000), isTrue);
   });
+  test('2024 is a leap year', () {
+    expect(calculator.calculateLeapYear(2024), isTrue);
+  });
 }
