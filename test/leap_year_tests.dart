@@ -7,4 +7,7 @@ void main() {
   test('1975 is not a leap year', () {
     expect(calculator.calculateLeapYear(1975), isFalse);
   });
+  test('100 is not a leap year', () {
+    expect(calculator.calculateLeapYear(100), isFalse);
+  });
 }
